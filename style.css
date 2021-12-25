@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-3,.col-md-2,.col-lg-2{
+    padding: 0;
+}
+/* header section start  */
+header{
+    background: #004377;
+}
+.header-row{
+    background: #004377;
+    border-bottom: .5px solid rgb(129, 129, 129);
+    width: 100%;
+    /* height: 4.2rem; */
+    position: fixed;
+    z-index: 99;
+    margin: 0;
+}
+.header-logo a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar button{
+    color: #fff;
+}
+
+.collapse{
+    background: #004377;
+   padding-left: 1rem;
+}
+.fw-bolder{
+    padding-left: 4rem;
+}
+
+h3 a{
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link{
+    color: #fff !important;
+    text-decoration: none;
+    outline: none;
+}
+li a{
+    font-weight: 100;
+    font-size: 14px;
+}
+li ion-icon{
+    font-size: 1.2rem;
+}
+.header-icon ul{
+    margin-top: 1.4rem;
+    list-style: none;
+    display: flex;
+/* justify-content: space-evenly; */
+    color: #fff ;
+}
+.header-icon ul li a{
+   margin: .3rem;
+    color: #fff;
+}
+/*  */
+/* header section end  */
+
+/* card section start  */
+#consumer{
+    margin-right: 1rem;
+    color: #00837e;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #00837e;
+    padding-bottom: 19px;
+}
+#professional{
+text-decoration: none;
+color: gray;
+font-weight: bold;
+}
+#professional:hover{
+    border-bottom: 2.5px solid #00837e;
+    padding-bottom: 19px;
+    color: #00837e;
+}
+.card{
+    width: 17rem;
+}
+#card-underline{
+    margin-left: 2rem;
+   background: rgb(168, 167, 167);
+    
+}
+.card-body h5{
+    color: #2e2e2e ;
+    font-size: 19px;
+    font-weight: 400;
+}
+.card-text{
+    color: #7f7f7f;
+    font-weight: 400;
+    font-size: 15px;
+}
+.discover-card:hover{
+    width: 17.5rem;
+    
+}
+/* card section end  */
+
+/* second card section start  */
+.trending img{
+width: 95%;
+}
+
+
+/* second card section end  */
+
+/* third card section start  */
+
+.third-card{
+    width: 20rem;
+    overflow: hidden;
+
+}
+.third-card img{
+    width: 32rem;
+    height: 10rem;  
+}
+.underline{
+    background: gray;
+}
+
+/* third card section end  */
+
+/* footer section start  */
+footer{
+    background: #004377;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+footer a{
+color: #fff;
+text-decoration: underline;
+}
+footer p{
+    line-height: 1.3rem;
+    font-weight: 400;
+    font-size: 14px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-logo h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-logo ion-icon{
+    padding-top: .5rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+footer hr{
+    background: rgb(107, 107, 107);
+}
+/* footer section end  */
+
+.col-lg-4{
+    padding:0;
+    margin: auto;
+}
+   @media(max-width:360px){
+    .trending img{
+        width: 10%;
+        margin-top: 1rem;
+    }
+   }
+
+    @media(max-width:360px){
+        .arm-burger-button{
+            margin-top: -4rem;
+        }
+        .trending-title h1{
+            font-size: 2rem;
+            margin-left: -3rem;
+        }
+        .trending img{
+            width: 20.5rem;
+            margin-top: 1rem;
+        }
+        .card{
+            width: 20rem;
+            margin-top: 1rem;
+        }
+        .third-card {
+            margin-top: 1rem;
+            margin-left: 1rem;
+            width: 20rem ;
+        }
+        .header-icon{
+            padding-left:0rem;
+        }
+        .col-9{
+            padding-left: 0;
+            
+        }
+        .col-lg-10{
+            padding: 0;
+        }
+        }
+         @media(max-width:441px){/*and(min-width:361px){ */
+            .trending{
+                margin-left: 2rem;
+            }
+            .card{
+                margin: auto;
+                width: 18rem;
+                margin-top: 1rem;
+            }
+            #card-underline{
+                margin: 1rem;
+            }
+            .trending img{
+                width: 95%;
+                margin-top: 1rem;
+                margin-left: -0.5rem;
+            }
+            .arm-burger-button{
+                margin-top: -4rem;
+            }
+        }
+@media(max-width:527px){
+    .arm-burger-button{
+        margin-top: -4rem;
+    }
+   
+}
+        @media (max-width:768px){
+            .trending img{
+                width:95%;
+                margin-top: 1rem;
+            }
+            .card{
+                width: 95%;
+                margin: auto;
+            }
+            .third-card{
+                width: 70%;
+                margin-top: 1rem;
+            }
+        }
+        @media (min-width:990px) {
+            nav button{
+                margin-top: -4.3rem;
+                margin-left: -6rem;
+            }
+            .card{
+                margin: 1rem;
+            }
+        }
+        
+/*         
+
+
+@media (max-width:628px) {
+    nav button{
+        margin-top: -3.5rem;
+        margin-left: 0rem;
+    }
+}
+@media (min-width:628px) {
+    nav button{
+        margin-top: -.5rem;
+        margin-left: -6rem;
+    }
+}
+
+ */
